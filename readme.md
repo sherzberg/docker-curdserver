@@ -12,7 +12,7 @@ Docker Pull:
 
 ```bash
 $ sudo docker pull sherzberg/curdserver
-$ sudo docker run -d -p 8000:8000 -d sherzberg/curdserver
+$ sudo docker run -d -p 8000:8000 sherzberg/curdserver
 ```
 
 Automation:
