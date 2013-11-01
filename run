@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curd-server /var/lib/wheelhouse
