@@ -2,13 +2,23 @@
 
 Creates a simple docker instance to proxy and store local copies of [Curdling curds](https://github.com/clarete/curdling) (Python packages)
 
-* `make build`
-* `make daemon` runs the docker as a daemon instance
-
 Ports
 -----
 
 * 8000 (default curd-server port)
+
+Docker Pull:
+
+```bash
+$ sudo docker pull sherzberg/curdserver
+$ sudo docker run -d -p 8000:8000 -d sherzberg/curdserver
+```
+
+Automation:
+-----------
+
+* `make build`
+* `make daemon` runs the docker as a daemon instance
 
 Client Usage:
 -------------
