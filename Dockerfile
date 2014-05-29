@@ -1,5 +1,5 @@
-FROM ubuntu
-MAINTAINER Spencer Herzberg "http://github.com/sherzberg"
+FROM stackbrew/ubuntu:14.04
+MAINTAINER Spencer Herzberg "http://github.com/sherzberg/docker-curdserver"
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update
