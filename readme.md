@@ -12,7 +12,12 @@ Docker Pull:
 
 ```bash
 $ sudo docker pull sherzberg/curdserver
-$ sudo docker run -d -p 8000:8000 sherzberg/curdserver
+```
+
+Run the container and setup volume sharing to persist any cached packages:
+
+```bash
+$ sudo docker run -d -v /var/wheelhouse:/var/wheelhouse -p 8000:8000 sherzberg/curdserver
 ```
 
 Automation:
