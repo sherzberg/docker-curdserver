@@ -1,6 +1,6 @@
 # Docker Curd Server for Python Packages
 
-Creates a simple docker instance to proxy and store local copies of [Curdling curds](https://github.com/clarete/curdling) (Python packages)
+Creates a simple docker instance to store local cached copies of [Curdling curds](https://github.com/clarete/curdling) (Python packages)
 
 Ports
 -----
